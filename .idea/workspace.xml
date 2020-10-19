@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b68ea6b-5c6b-4a63-9caf-40f765fcc4d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/AccessToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/PageBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/PageVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/AppException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/index/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/utils/DateUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/utils/UUIDUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/src/test/java/com/server/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-center/server-center-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-pc/server-pc-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-pc/server-pc-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-pc/server-pc-web/src/main/resources/application.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="8b68ea6b-5c6b-4a63-9caf-40f765fcc4d8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/server-center/target/" />
@@ -49,6 +32,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="357" />
+          <entry key="md" value="141" />
           <entry key="txt" value="8" />
           <entry key="xml" value="391" />
           <entry key="yml" value="31" />
@@ -57,6 +41,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="357" />
+          <entry key="Markdown" value="141" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="391" />
           <entry key="YAML" value="31" />
@@ -68,7 +53,8 @@
           <entry key="class" value="1" />
           <entry key="java" value="124" />
           <entry key="log" value="2" />
-          <entry key="xml" value="38" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="39" />
           <entry key="yml" value="19" />
         </counts>
       </usages-collector>
@@ -76,9 +62,10 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="124" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="38" />
+          <entry key="XML" value="39" />
           <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
@@ -125,15 +112,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2853">
+              <caret line="44" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="243">
+                <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -212,6 +221,7 @@
         <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/config/DubboConfig.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/Assert.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -258,7 +268,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1937" />
@@ -326,57 +336,13 @@
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="server-center" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="server-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +357,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603093971164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603094483909" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server-center/server-center-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -474,12 +440,12 @@
       <updated>1603072150901</updated>
       <workItem from="1603072153877" duration="616000" />
       <workItem from="1603072781213" duration="2277000" />
-      <workItem from="1603075075943" duration="9922000" />
+      <workItem from="1603075075943" duration="10464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12815000" />
+    <option name="totallyTimeSpent" value="13357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -529,21 +495,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/interceptor/SsoInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="44" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/common/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -912,12 +863,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2853">
+          <caret line="44" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="243">
+            <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
