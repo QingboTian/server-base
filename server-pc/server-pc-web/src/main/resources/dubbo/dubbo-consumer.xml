@@ -1,0 +1,9 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <dubbo:application name="server-admin-web"/>
+    <dubbo:registry address="zookeeper://localhost:2181" timeout="10000"/>
+    <dubbo:reference id="demoService" interface="com.server.api.DemoService" timeout="10000"/>
+</beans>

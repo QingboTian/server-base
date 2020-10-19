@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+
+token:
+  # 2H
+  expire: 7200

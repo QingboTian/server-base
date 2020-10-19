@@ -2,8 +2,6 @@ package com.server.common;
 
 import lombok.Data;
 
-import java.io.Serializable;
-
 @Data
 public class Result<T> {
     // 响应业务状态

@@ -24,6 +24,13 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.server</groupId>
+            <artifactId>server-center-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

@@ -17,7 +17,7 @@ public class IndexController {
     @GetMapping({"/index", "/"})
     public Map index() {
         Map<String, String> index = new LinkedHashMap<>();
-        index.put("name", "Server Admin");
+        index.put("name", "Server Center");
         index.put("version", "1.0");
         index.put("author", "tianqb");
         index.put("description", "Welcome to Server");
