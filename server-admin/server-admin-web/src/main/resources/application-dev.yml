@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/app?serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    spring.druid.initialSize: 5
+    spring.druid.minIdle: 5
+    spring.druid.maxActive: 20
+    spring.druid.maxWait: 60000
+    spring.druid.timeBetweenEvictionRunsMillis: 60000
+    spring.druid.minEvictableIdleTimeMillis: 300000

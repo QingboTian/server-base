@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-admin-rpc" />
+        <module name="server-admin-web" />
+        <module name="server-center-api" />
+        <module name="server-center-service" />
+        <module name="server-pc-rpc" />
+        <module name="server-pc-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="server-pc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
