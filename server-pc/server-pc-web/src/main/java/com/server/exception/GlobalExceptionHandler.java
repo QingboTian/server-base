@@ -1,5 +1,6 @@
 package com.server.exception;
 
+import com.server.common.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.ObjectError;

@@ -3,10 +3,10 @@ package com.server.interceptor;
 import com.server.exception.AppException;
 import com.server.sso.pojo.Userinfo;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -38,6 +38,11 @@ public class SsoInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+
+        /**
+         * 开发过程拦截关闭，方便测试
+         */
+
         String token = request.getHeader(TOKEN);
         Userinfo user = (Userinfo) request.getSession().getAttribute(token);
 

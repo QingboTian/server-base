@@ -13,3 +13,8 @@ spring:
     spring.druid.maxWait: 60000
     spring.druid.timeBetweenEvictionRunsMillis: 60000
     spring.druid.minEvictableIdleTimeMillis: 300000
+
+#logging:
+#  file:
+#    path: .
+#    name: server.log

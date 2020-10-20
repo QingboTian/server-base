@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(AppException.class)
     public Result appException(AppException ex) {
-        log.info("{}", ex.getMessage());
+        log.info("code: {}, message: {}", ex.getCode(), ex.getMessage());
         return Result.build(ex.getCode(), ex.getMessage());
     }
 

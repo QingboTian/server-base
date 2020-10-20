@@ -1,5 +1,6 @@
 package com.server.common;
 
+import com.server.exception.AppException;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
 

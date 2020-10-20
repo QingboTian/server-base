@@ -1,6 +1,5 @@
 package com.server.sso.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import com.server.common.AccessToken;
 import com.server.common.Result;
 import com.server.exception.AppException;
@@ -45,13 +44,15 @@ public class SsoController {
 
     @PostMapping("/regist")
     public Result regist(@RequestBody @Validated({Insert.class}) Userinfo userinfo) throws AppException {
-        log.info("User info: {}", JSONObject.toJSONString(userinfo));
-        return Result.ok(ssoService.regist(userinfo));
+//        log.info("Registry User: {}", JSONObject.toJSONString(userinfo));
+        boolean regist = ssoService.regist(userinfo);
+        return Result.ok(regist);
     }
 
     @PostMapping("/login")
     public Result login(@RequestBody @Validated({Select.class}) Userinfo userinfo, HttpSession session) throws AppException {
         if (ssoService.login(userinfo)) {
+            log.info("Login User: {}", userinfo.getUsername());
             // 颁发token
             AccessToken token = getToken();
             session.setAttribute(token.getToken(), userinfo);

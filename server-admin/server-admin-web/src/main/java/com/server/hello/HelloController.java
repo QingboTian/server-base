@@ -1,5 +1,6 @@
 package com.server.hello;
 
+import com.server.annotation.WebLog;
 import com.server.api.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +20,8 @@ public class HelloController {
     private DemoService demoService;
 
     @GetMapping
-    public String hello() {
+    @WebLog(description = "hello log")
+    public String hello(String str) {
         return demoService.hello();
     }
 
