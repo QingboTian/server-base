@@ -46,7 +46,7 @@ public class SsoInterceptor implements HandlerInterceptor {
          */
         for (String s : ACCESS_URL) {
             if (Objects.nonNull(user) && request.getRequestURI().contains("/sso/login")) {
-                throw new AppException( "当前用户已登录，请勿重复登录", HttpStatus.OK.value());
+                throw new AppException( "The current user is logged in, please do not repeat login", HttpStatus.OK.value());
             }
             if (request.getRequestURI().contains(s)) {
                 return true;
@@ -56,7 +56,7 @@ public class SsoInterceptor implements HandlerInterceptor {
         if (!StringUtils.isEmpty(token)) {
             if (Objects.isNull(user)) {
                 // token 过期
-                throw new AppException( "token过期，请重新登录", HttpStatus.UNAUTHORIZED.value());
+                throw new AppException( "Token expired, please login again", HttpStatus.UNAUTHORIZED.value());
             } else {
                 // 刷新token过期时间
                 request.getSession().setMaxInactiveInterval(EXPIRE.intValue());

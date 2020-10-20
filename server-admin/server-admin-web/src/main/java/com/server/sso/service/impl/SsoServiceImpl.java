@@ -44,7 +44,7 @@ public class SsoServiceImpl implements SsoService {
             user.setPassword(MD5Utils.md5(user.getPassword()));
             return userMapper.insert(user) != 0;
         } else {
-            throw new AppException("用户已经存在，请勿重复注册", HttpStatus.FORBIDDEN.value());
+            throw new AppException("The user already exists, please do not repeat registration", HttpStatus.FORBIDDEN.value());
         }
     }
 
@@ -52,7 +52,7 @@ public class SsoServiceImpl implements SsoService {
     public boolean login(Userinfo user) throws AppException {
         Userinfo userinfo = exist(user);
         if (Objects.isNull(userinfo)) {
-            throw new AppException("用户不存在或者被拉黑,请前往注册", HttpStatus.UNAUTHORIZED.value());
+            throw new AppException("The user does not exist or is blocked, please go to register", HttpStatus.UNAUTHORIZED.value());
             // 用户不存在或者被拉黑
         }
         // 数据库中应该存储的是md5加密的密码
@@ -60,7 +60,7 @@ public class SsoServiceImpl implements SsoService {
         if (Objects.equals(pwd, userinfo.getPassword())) {
             return true;
         } else {
-            throw new AppException("密码输入错误，请重新输入", HttpStatus.UNAUTHORIZED.value());
+            throw new AppException("The password is incorrect. Please re-enter it", HttpStatus.UNAUTHORIZED.value());
         }
     }
 

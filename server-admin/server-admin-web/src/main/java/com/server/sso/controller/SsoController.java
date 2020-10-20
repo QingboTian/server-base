@@ -59,17 +59,17 @@ public class SsoController {
             session.setMaxInactiveInterval(EXPIRE.intValue());
             return Result.ok(token);
         }
-        return Result.ok("登录失败");
+        return Result.ok("Login failed");
     }
 
     @PostMapping("/logout")
     public Result logout(HttpServletRequest request) throws AppException {
         String token = request.getHeader("TOKEN");
         if (StringUtils.isEmpty(token)) {
-            throw new AppException("当前用户未进行登录，登出失败", HttpStatus.UNAUTHORIZED.value());
+            throw new AppException("Current user is not logged in, logout failed", HttpStatus.UNAUTHORIZED.value());
         } else {
             request.getSession().removeAttribute(token);
-            return Result.ok("登出成功");
+            return Result.ok("Logout success");
         }
     }
 
