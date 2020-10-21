@@ -1,6 +1,7 @@
 package com.server.service.impl;
 
 import com.server.api.DemoService;
+import com.server.common.ClientSource;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DemoServiceImpl implements DemoService {
     @Override
-    public String hello() {
+    public String hello(ClientSource clientSource) {
         return "Hello";
     }
 }

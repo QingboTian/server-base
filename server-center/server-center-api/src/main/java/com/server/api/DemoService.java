@@ -1,5 +1,7 @@
 package com.server.api;
 
+import com.server.common.ClientSource;
+
 /**
 * @author tianqingbo3
 * @version 1.0
@@ -7,6 +9,6 @@ package com.server.api;
 */
 public interface DemoService {
 
-    String hello();
+    String hello(ClientSource clientSource);
 
 }

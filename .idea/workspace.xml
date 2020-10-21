@@ -4,17 +4,16 @@
     <list default="true" id="8b68ea6b-5c6b-4a63-9caf-40f765fcc4d8" name="Default Changelist" comment="chinese to english">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-rpc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-rpc/src/main/java/com/server/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-rpc/src/test/java/com/server/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/controller/SsoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/controller/SsoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server-admin/server-admin-web/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/common/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/common/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/api/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/api/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/target/classes/com/server/api/DemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-api/target/classes/com/server/api/DemoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-api/target/server-center-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-api/target/server-center-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,44 +48,46 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="1777" />
-          <entry key="md" value="1154" />
+          <entry key="java" value="3044" />
+          <entry key="md" value="1271" />
           <entry key="txt" value="26" />
-          <entry key="xml" value="395" />
+          <entry key="xml" value="417" />
           <entry key="yml" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1776" />
-          <entry key="Markdown" value="1154" />
+          <entry key="JAVA" value="3043" />
+          <entry key="Markdown" value="1271" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="Pointcut Expression" value="1" />
-          <entry key="XML" value="395" />
+          <entry key="XML" value="417" />
           <entry key="YAML" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="1-SNAPSHOT" value="1" />
-          <entry key="class" value="5" />
-          <entry key="java" value="146" />
+          <entry key="class" value="6" />
+          <entry key="java" value="168" />
           <entry key="log" value="3" />
-          <entry key="md" value="2" />
-          <entry key="xml" value="44" />
-          <entry key="yml" value="20" />
+          <entry key="md" value="3" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="48" />
+          <entry key="yml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="146" />
-          <entry key="Markdown" value="2" />
+          <entry key="CLASS" value="6" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="168" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="44" />
-          <entry key="YAML" value="20" />
+          <entry key="XML" value="48" />
+          <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -99,10 +100,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/GlobalExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/aop/ClientSourceAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-255">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/controller/ClientSourceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,47 +126,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/soft/maven/apache-maven-3.5.2-bin/apache-maven-3.5.2/repository/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="515" selection-start-line="515" selection-end-line="515" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/controller/SsoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_251/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="513">
-                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <first_editor relative-caret-position="216">
+                <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,10 +138,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java">
+        <entry file="jar://D:/soft/maven/apache-maven-3.5.2-bin/apache-maven-3.5.2/repository/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/ClientSoruceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/common/ClientSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,20 +173,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-rpc/src/main/java/com/server/rpc/hello/HelloFacadeService.java">
+        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="354">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/impl/ClientSourceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+            <state relative-caret-position="459">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,6 +214,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -203,6 +223,7 @@
     <findStrings>
       <find>mybatis</find>
       <find>nano</find>
+      <find>ase</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,24 +237,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/server-center/pom.xml" />
-        <option value="$PROJECT_DIR$/server-pc/server-pc-rpc/pom.xml" />
-        <option value="$PROJECT_DIR$/server-pc/pom.xml" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/mapper/UserinfoMapper.java" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/mapper/UserinfoSqlProvider.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/config/DubboConfig.java" />
-        <option value="$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/api/DemoService.java" />
-        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/resources/dubbo/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/dubbo/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/test/TestController.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/index/IndexController.java" />
         <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/server-center/server-center-service/pom.xml" />
         <option value="$PROJECT_DIR$/server-pc/server-pc-web/pom.xml" />
         <option value="$PROJECT_DIR$/server-pc/server-pc-web/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/common/Result.java" />
@@ -252,19 +262,32 @@
         <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/config/DubboConfig.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/Assert.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/service/impl/SsoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" />
         <option value="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/common/Assert.java" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/annotation/WebLog.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-rpc/pom.xml" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java" />
-        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-rpc/src/main/java/com/server/rpc/hello/HelloFacadeService.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/controller/SsoController.java" />
         <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/api/DemoService.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/server-admin/server-admin-web/pom.xml" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/pom.xml" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/pojo/ClientSource.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/mapper/ClientSourceMapper.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/mapper/ClientSourceSqlProvider.java" />
+        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java" />
+        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java" />
+        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/aop/ClientSourceAop.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/common/ClientSource.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/ClientSoruceService.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/impl/ClientSourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/controller/ClientSourceController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/BaseController.java" />
       </list>
     </option>
   </component>
@@ -303,6 +326,26 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="server-center-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server-center-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server-center-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server-center-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server-center-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -554,7 +597,138 @@
               <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="server-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center" type="462c0819:PsiDirectoryNode" />
+              <item name="server-center-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -569,7 +743,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603196105068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603261535436" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server-center/server-center-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -585,11 +759,11 @@
       <recent name="com.server.index" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\server-center\server-center-service\src\main\resources" />
       <recent name="D:\server\server-center\server-center-api\src\main\java\com\server" />
       <recent name="D:\server\server-center\server-center-api\src\main\java\com\server\common" />
       <recent name="D:\server\server-pc\server-pc-web\src\main\java\com\server" />
       <recent name="D:\server\server-center\server-center-service\src\main\java\com\server" />
-      <recent name="D:\server\server-pc\server-pc-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -653,7 +827,7 @@
       <workItem from="1603072153877" duration="616000" />
       <workItem from="1603072781213" duration="2277000" />
       <workItem from="1603075075943" duration="10464000" />
-      <workItem from="1603162295555" duration="18339000" />
+      <workItem from="1603162295555" duration="27706000" />
     </task>
     <task id="LOCAL-00001" summary="chinese to english">
       <created>1603162616872</created>
@@ -666,14 +840,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35320000" />
+    <option name="totallyTimeSpent" value="44687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23773988" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -682,7 +856,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18283166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30992195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,7 +866,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.28762543" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.4057971" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.4470457" />
       <window_info anchor="bottom" id="风险组件扫描" order="13" />
       <window_info anchor="bottom" id="Duplication Code Results" order="14" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32998884" />
@@ -702,7 +876,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.14392324" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.282516" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -749,135 +923,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/service/impl/SsoServiceImpl.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/aop/ClientSourceAop.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/config/DubboConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/exception/AppException.java" />
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/index/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/mapper/UserinfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/mapper/UserinfoSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/pojo/Userinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/pojo/UserinfoExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/service/SsoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/index/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/index/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/interceptor/SsoInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/controller/SsoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/mapper/UserinfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/mapper/UserinfoSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/pojo/Userinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/pojo/UserinfoExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-pc/server-pc-web/src/main/java/com/server/sso/service/SsoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -966,42 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="44" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/ServerCenterServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/ServerAdminWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/annotation/WebLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1014,23 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/service/impl/SsoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,24 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-admin/server-admin-rpc/src/main/java/com/server/rpc/hello/HelloFacadeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1114,7 +1103,7 @@
     <entry file="jar://D:/Java/jdk1.8.0_251/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1125,13 +1114,224 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/api/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="170" column="21" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="169" column="31" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/pojo/ClientSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/pojo/ClientSourceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/mapper/ClientSourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/mapper/ClientSourceSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/interceptor/SsoInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/sso/service/impl/SsoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/ServerCenterServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/aop/WebLogAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/ServerAdminWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/hello/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/aop/ClientSourceAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/impl/ClientSourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/service/ClientSoruceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/soft/maven/apache-maven-3.5.2-bin/apache-maven-3.5.2/repository/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-api/src/main/java/com/server/common/ClientSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-center/server-center-service/src/main/java/com/server/client/controller/ClientSourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <first_editor relative-caret-position="216">
+            <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-admin/server-admin-web/src/main/java/com/server/common/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1387,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>server-admin-web</last-edited>
+          <last-edited>server-center</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

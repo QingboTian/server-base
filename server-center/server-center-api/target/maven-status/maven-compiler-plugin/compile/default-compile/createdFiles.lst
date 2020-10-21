@@ -1,6 +1,7 @@
 com\server\common\Result.class
 com\server\utils\DateUtils.class
 com\server\api\DemoService.class
+com\server\common\ClientSource.class
 com\server\exception\AppException.class
 com\server\App.class
 com\server\common\AccessToken.class

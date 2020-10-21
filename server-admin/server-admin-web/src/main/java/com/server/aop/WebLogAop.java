@@ -54,7 +54,7 @@ public class WebLogAop {
                     JSONObject.toJSONString(proceed), end - start);
         } catch (Throwable throwable) {
             log.error("Current method execution error： {}", method.getName());
-//            throwable.printStackTrace();
+            throwable.printStackTrace();
         }
         return proceed;
     }

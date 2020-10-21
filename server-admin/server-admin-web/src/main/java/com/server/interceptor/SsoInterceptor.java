@@ -68,7 +68,7 @@ public class SsoInterceptor implements HandlerInterceptor {
             }
         } else {
             // 未携带token
-            return false;
+            throw new AppException( "Please add token information in the header", HttpStatus.UNAUTHORIZED.value());
         }
         return true;
     }
